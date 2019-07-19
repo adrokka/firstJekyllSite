@@ -1,4 +1,2 @@
-.site {
-    max-width: 80%;
-    margin: 0 auto;
-}
+@import url('typography.css');
+@import url('layout.css');
