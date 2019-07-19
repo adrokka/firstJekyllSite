@@ -4,10 +4,16 @@
     padding: 2em 0;
 }
 
-.site-header {
-    display: flex;
-}
+@media ( min-width: 1024px ) {
 
-.site-header nav {
-    margin-left: auto;
+    .site-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .site-header nav {
+        margin-left: auto;
+        align-items: center;
+    }
+    
 }

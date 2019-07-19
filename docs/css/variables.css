@@ -9,4 +9,8 @@
     --color-body-bgrd: #444;
     --color-body-text: #EEE;
     --color-link-default: #FF851B;
+
+    --color-border-default: #999; 
+
+    --spacing-layout-element: 2em;
 }
