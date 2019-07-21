@@ -12,6 +12,12 @@
     display: block;
     list-style: none outside;
     padding: 0 0.5em;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+body.loaded .site-nav li {
+    opacity: 1;
 }
 
 .site-nav li:first-child {
@@ -23,6 +29,7 @@
     padding: 0.1em 0.2em;
     border-radius: 0.3em;
     background: #5f5f5f;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .site-nav a:hover {
