@@ -11,7 +11,7 @@
     <script src="{{ site.baseurl }}/scripts/site.js"></script>
 </head>
 
-<body>
+<body class="page {% if page.title %} page-{{ page.title | slugify }} {% endif %}">
 
     <div class="site">
         <header class="site-header">
@@ -41,5 +41,4 @@
     </div>
 
 </body>
-
 </html>

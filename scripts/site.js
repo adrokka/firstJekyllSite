@@ -1,3 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementsByTagName('body')[0].classList.add('loaded');
+    setTimeout(function() {
+        document.getElementsByTagName('body')[0].classList.add('loaded');
+    }, 1)
 });
