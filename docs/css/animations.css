@@ -1,0 +1,72 @@
+.page-animations .site-header,
+.page-animations .site-footer,
+.page-animations .site-main h1 {
+    display: none;
+}
+
+.page-animations {
+    min-height: 100vh;
+}
+
+.box {
+    width: 5em;
+    height: 5em;
+    background: #F00;
+    -webkit-animation: around 4s linear;
+            animation: around 4s linear;
+    position: absolute;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes around {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: calc( 100% - 5rem );
+    }
+
+    50% {
+        top: calc( 100% - 5rem );
+        left: calc( 100% - 5rem );
+    }
+
+    75% {
+        top: calc( 100% - 5rem );
+        left: 0%;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes around {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: calc( 100% - 5rem );
+    }
+
+    50% {
+        top: calc( 100% - 5rem );
+        left: calc( 100% - 5rem );
+    }
+
+    75% {
+        top: calc( 100% - 5rem );
+        left: 0%;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
