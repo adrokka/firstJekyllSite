@@ -17,7 +17,9 @@ title: TheFirstJekyllSite
 email: adrokka@example.com
 description: First Jekyll Site
 destination: docs
+# baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "/firstJekyllSite" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://adrokka.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adrokka
 github_username:  adrokka
@@ -40,3 +42,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - docs
+  - _assets
+  - gulpfile.js
+  - package.json
+  - package-lock.json
